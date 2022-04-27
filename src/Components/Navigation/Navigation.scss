@@ -1,0 +1,16 @@
+.navBlock {
+  margin: 0px 10px 20px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+
+  .input_nav {
+    height: 30px;
+    outline: none;
+    width: 70%;
+  }
+
+  .button_nav {
+    width: 60px;
+  }
+}

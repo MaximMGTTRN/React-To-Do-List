@@ -1,0 +1,56 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 7px grey;
+  padding: 3px;
+  margin-bottom: 10px;
+  min-height: 20px;
+
+  .taskText {
+    min-width: 50%;
+    width: 75%;
+
+    .mainText {
+      word-wrap: break-word;
+      width: 100%;
+    }
+
+    .good {
+      color: grey;
+      text-decoration: line-through;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    display: flex;
+
+    .editBut {
+      width: 20px;
+      height: 20px;
+      background-image: url(./img/pen.png);
+      background-size: cover;
+      margin-right: 5px;
+    }
+
+    .deleteBut {
+      width: 20px;
+      height: 20px;
+      background-image: url(./img/trash.png);
+      background-size: cover;
+      margin-right: 5px;
+    }
+  }
+
+  .taskInput {
+    width: 90%;
+
+    .mainInput {
+      width: 95%;
+    }
+  }
+
+
+}
